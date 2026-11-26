@@ -1,6 +1,6 @@
 import "./globals.css";
 export const metadata = {
-  icons: { icon: "/favicon.ico", apple: "/omnisyn-icon.png" },
+  icons: { icon: { url: "/omnisyn-aba-32.png", type: "image/png", sizes: "32x32" }, apple: "/omnisyn-icon.png" },
   title: "OmniSyn Tecnologies | Tecnologia agrícola",
   description: "Conheça o OmniCore e as aplicações de tecnologia agrícola da OmniSyn Tecnologies."
 };
