@@ -10,6 +10,21 @@
       "source": "/pt-br/cana-de-acucar-latam/",
       "destination": "/pt-br/omniguide/",
       "permanent": true
+    },
+    {
+      "source": "/pt-br/cafe/",
+      "destination": "/pt-br/omnisoil/",
+      "permanent": true
+    },
+    {
+      "source": "/pt-br/graos_e_fibra/",
+      "destination": "/pt-br/omniseed/",
+      "permanent": true
+    },
+    {
+      "source": "/pt-br/alice-ai-platform/",
+      "destination": "/pt-br/omnicore/",
+      "permanent": true
     }
   ]
 }

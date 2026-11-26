@@ -46,7 +46,7 @@ export function Solution({ slug }) {
       </section> :
       <section className="frame solution-content" id="funcionalidades">
         <h2>Uma situação de campo</h2><p>{product.scenario}</p>
-        {slug === "graos_e_fibra" && <figure className="seed-measures" aria-label="Esquema de espaçamento e profundidade">
+        {slug === "omniseed" && <figure className="seed-measures" aria-label="Esquema de espaçamento e profundidade">
           <div className="seed-spacing">← Espaçamento →</div>
           <div className="seed-soil"><span>↕ Profundidade</span><i/><i/></div>
           <figcaption>Espaçamento medido entre sementes. Profundidade medida da superfície até a semente.</figcaption>

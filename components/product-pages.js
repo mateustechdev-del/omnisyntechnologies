@@ -12,7 +12,7 @@ export const products = {
       ["Supervisionar a passada", "O operador acompanha a condução e assume o comando sempre que necessário."]
     ]
   },
-  cafe: {
+  omnisoil: {
     headline: "Até onde a água chegou?",
     orbitTerms: ["Umidade", "Profundidade", "Raízes"],
     name: "OmniSoil", title: "Monitoramento da umidade na zona das raízes",
@@ -25,7 +25,7 @@ export const products = {
       ["Investigar a diferença", "A interpretação agronômica considera fatores como chuva, irrigação e condições locais do solo antes de orientar o manejo."]
     ]
   },
-  graos_e_fibra: {
+  omniseed: {
     headline: "Cada linha conta na hora de plantar.",
     orbitTerms: ["Sementes", "Distribuição", "População-alvo"],
     name: "OmniSeed", title: "Monitoramento da distribuição de sementes, linha por linha",
@@ -38,7 +38,7 @@ export const products = {
       ["Revisar a operação", "A proposta é acompanhar essas medidas e identificar variações. A atuação sobre a regulagem da plantadeira depende de validação."]
     ]
   },
-  "alice-ai-platform": {
+  "omnicore": {
     headline: "Do solo à passada, uma só operação.",
     orbitTerms: ["Pilotagem", "Solo", "Plantio"],
     name: "OmniCore", title: "Pilotagem, solo e plantio em um só sistema",
@@ -51,7 +51,7 @@ export const products = {
     ]
   }
 };
-export const coreSlug = "alice-ai-platform";
+export const coreSlug = "omnicore";
 export const productHighlights = {
   OmniGuide: {
     headline: "Cada passada tem uma referência.",
@@ -110,7 +110,7 @@ export const proposedScopes = {
     ],
     example: "Ao retomar o trabalho depois de uma parada, o operador selecionaria a passada interrompida. Se o trator entrasse à direita da referência, a tela indicaria esse afastamento para ajudá-lo a retomar o alinhamento."
   },
-  "alice-ai-platform": {
+  "omnicore": {
     question: "Em qual trecho da passada ocorreu um desvio de plantio e que informações do solo ajudam a orientar a vistoria?",
     rows: [
       ["Identificação da operação", "A equipe selecionaria o talhão e a operação de plantio. A trajetória, as contagens de sementes e as leituras das sondas manteriam seus respectivos locais e horários de registro."],
@@ -121,7 +121,7 @@ export const proposedScopes = {
     ],
     example: "Se a linha 7 registrasse menos sementes que o previsto, a equipe poderia localizar a passada no mapa e inspecionar o tubo correspondente. Para a vistoria do sulco, poderia consultar também a última leitura da sonda mais próxima e conferir a umidade no próprio trecho."
   },
-  cafe: {
+  omnisoil: {
     question: "A chuva ou a irrigação repôs água até a profundidade que interessa para esta cultura?",
     rows: [
       ["Instalação", "O agrônomo seleciona pontos representativos do talhão e instala sondas em diferentes profundidades, por exemplo, 10, 30 e 50 cm. As camadas dependem da cultura, da fase de desenvolvimento e do tipo de solo."],
@@ -132,7 +132,7 @@ export const proposedScopes = {
     ],
     example: "Após a irrigação, a sonda a 10 cm registra aumento de umidade, mas a de 30 cm continua abaixo da faixa configurada. O OmniSoil mostra as duas curvas e identifica o ponto. O agrônomo pode verificar a distribuição da água antes de alterar a irrigação do talhão inteiro."
   },
-  graos_e_fibra: {
+  omniseed: {
     question: "Cada linha da plantadeira está entregando a quantidade de sementes que planejei para esta passada?",
     rows: [
       ["Instalação", "Um sensor óptico em cada tubo detecta a passagem dos grãos. Um módulo embarcado identifica a linha de origem de cada pulso e recebe a velocidade pelo GNSS ou pelo sensor da máquina."],

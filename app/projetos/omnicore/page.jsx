@@ -3,7 +3,7 @@ import { coreSlug } from "../../../components/product-pages";
 
 export const metadata = {
   ...solutionMetadata(coreSlug),
-  alternates: { canonical: "/pt-br/alice-ai-platform/" }
+  alternates: { canonical: "/pt-br/omnicore/" }
 };
 
 export default function OmniCorePage() {
