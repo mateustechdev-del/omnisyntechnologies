@@ -4,5 +4,12 @@
   "installCommand": "npm ci",
   "buildCommand": "npm run build",
   "outputDirectory": "out",
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/pt-br/cana-de-acucar-latam/",
+      "destination": "/pt-br/omniguide/",
+      "permanent": true
+    }
+  ]
 }

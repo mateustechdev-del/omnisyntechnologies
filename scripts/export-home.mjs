@@ -185,7 +185,7 @@ function removeLegacyExternalLinks(html) {
 const generatedSolutionRoutes = new Set([
   "alice-ai-platform",
   "cafe",
-  "cana-de-acucar-latam",
+  "omniguide",
   "graos_e_fibra"
 ]);
 
@@ -270,5 +270,5 @@ await normalizeReferencePages(join(process.cwd(), "out/reference-pages/pt-br"));
 await cp(new URL("../out/reference-pages/pt-br/", import.meta.url), new URL("../out/pt-br/", import.meta.url), {
   recursive: true,
   force: true,
-  filter: source => !/[\\/]pt-br[\\/](?:alice-ai-platform|cafe|cana-de-acucar-latam|graos_e_fibra)(?:[\\/]|$)/.test(source)
+  filter: source => !/[\\/]pt-br[\\/](?:alice-ai-platform|cafe|omniguide|graos_e_fibra)(?:[\\/]|$)/.test(source)
 });

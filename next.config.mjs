@@ -8,7 +8,7 @@ export default function config(phase) {
         return {
           beforeFiles: [
             { source: "/", destination: "/previa-solinftec.html" },
-            { source: "/pt-br/:path((?!cana-de-acucar-latam|cafe|graos_e_fibra|alice-ai-platform).*)", destination: "/reference-pages/pt-br/:path/index.html" }
+            { source: "/pt-br/:path((?!omniguide|cafe|graos_e_fibra|alice-ai-platform).*)", destination: "/reference-pages/pt-br/:path/index.html" }
           ],
           afterFiles: [],
           fallback: []

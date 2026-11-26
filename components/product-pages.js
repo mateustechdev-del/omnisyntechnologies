@@ -1,5 +1,5 @@
 export const products = {
-  "cana-de-acucar-latam": {
+  "omniguide": {
     headline: "Precisão no campo, passada após passada.",
     orbitTerms: ["Trajetória", "Alinhamento", "Passadas"],
     name: "OmniGuide", title: "Pilotagem de precisão semiautônoma",
@@ -99,7 +99,7 @@ export const productHighlights = {
   }
 };
 export const proposedScopes = {
-  "cana-de-acucar-latam": {
+  "omniguide": {
     question: "Quanto a máquina se afastou da trajetória planejada nesta passada?",
     rows: [
       ["Preparação", "O operador selecionaria o talhão e informaria a largura de trabalho do implemento para definir a distância entre passadas."],
