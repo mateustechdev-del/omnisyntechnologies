@@ -1,0 +1,19 @@
+node_modules/
+.env
+.DS_Store
+.site-output/
+outputs/
+
+.next/
+out/
+
+.vercel/
+.openai/
+.env.*
+!.env.example
+*.log
+Thumbs.db
+# Originais de design. Os arquivos publicados ficam em public/.
+/*.png
+/*.jpg
+/novas imagens/
